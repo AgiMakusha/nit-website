@@ -51,19 +51,19 @@ export default function Navigation() {
         <div className="container-site">
           <nav className="flex items-center justify-between h-16 md:h-20">
             {/* Logo */}
-            <Link href="/" className="flex items-center flex-shrink-0 rounded-xl overflow-hidden bg-[#7ecfc0]">
-              <div className="w-12 h-12 relative flex-shrink-0 p-2">
+            <Link href="/" className="flex items-center gap-3 flex-shrink-0">
+              <div className="w-12 h-12 relative flex-shrink-0">
                 <Image
                   src="/assets/logo-black.svg"
                   alt="NIT Logo"
                   fill
-                  className="object-contain p-2"
+                  className="object-contain"
                   priority
                   sizes="48px"
                 />
               </div>
-              <div className="flex flex-col justify-center h-12 pr-3">
-                <div className="text-[0.55rem] sm:text-[0.6rem] font-semibold tracking-widest uppercase text-obsidian-700/60 leading-none mb-0.5">
+              <div className="flex flex-col justify-center h-12">
+                <div className="text-[0.55rem] sm:text-[0.6rem] font-semibold tracking-widest uppercase text-mint-600 leading-none mb-0.5">
                   Center for
                 </div>
                 <div className="text-[0.7rem] sm:text-sm leading-tight tracking-tight text-obsidian-900 font-extrabold">

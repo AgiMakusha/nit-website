@@ -69,7 +69,7 @@ export default function ContactsPage() {
         <div className="container-site">
           <AnimateOnScroll direction="up">
             <p className="text-[#235a54] text-xs font-semibold uppercase tracking-widest mb-3">Meet the team</p>
-            <h2 className="heading-md text-obsidian-900 mb-6">The people behind NIT</h2>
+            <h2 className="heading-md text-obsidian-900 mb-6">The people behind NIP center</h2>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
               <div className="flex flex-col items-center text-center gap-4">
                 <div className="w-24 h-24 rounded-full overflow-hidden relative ring-4 ring-white/40 shadow-lg">
@@ -207,7 +207,7 @@ export default function ContactsPage() {
                   <h3 className="heading-sm text-obsidian-900 mb-4">Direct contact</h3>
                   <div className="space-y-4">
                     <a
-                      href="mailto:maru.berzina@gmail.com"
+                      href="mailto:marina@nipcenter.com"
                       className="flex items-center gap-3 p-3 rounded-xl hover:bg-neutral-50 transition-colors group"
                     >
                       <div className="w-9 h-9 rounded-lg bg-[#7ecfc0]/10 flex items-center justify-center group-hover:bg-[#7ecfc0]/20 transition-colors">
@@ -215,7 +215,7 @@ export default function ContactsPage() {
                       </div>
                       <div>
                         <p className="text-xs text-obsidian-400 font-medium mb-0.5">Marina Berzina</p>
-                        <p className="text-sm font-semibold text-obsidian-900">maru.berzina@gmail.com</p>
+                        <p className="text-sm font-semibold text-obsidian-900">marina@nipcenter.com</p>
                       </div>
                     </a>
                   </div>
